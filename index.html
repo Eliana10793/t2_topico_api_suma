@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Suma - Api!</title>
+  </head>
+  <body onload="javascript:showModal();">
+      <h1>Suma - Api Rest</h1>
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="shadow-lg p-3 mb-8 mt-4 bg-body rounded">
+                    <form action="#" id="formulario" name="formulario" method="post" class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="numero1" class="form-label">Número 1</label>
+                            <input type="number" name="numero1" id="numero1" class="form-control" required>
+                            <div class="valid-feedback">Número Ingresado</div>
+                            <div class="invalid-feedback">Porfavor Ingrese un Número</div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="numero2" class="form-label">Número 2</label>
+                            <input type="number" name="numero2" id="numero2" class="form-control" required>
+                            <div class="valid-feedback">Número Ingresado</div>
+                            <div class="invalid-feedback">Porfavor Ingrese un Número</div>
+                        </div>
+                        <button type="submit" class="btn btn-warning fw-bold">Suma</button>
+                    </form>
+                    <br>
+                    <div class="form-group" id="respuesta">
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+
+  </body>
+</html>
